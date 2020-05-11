@@ -97,7 +97,7 @@ ul {
   font-family: 'Roboto Light', Arial;
 }
 
-.icon-container span.ti-gift {
+.icon-container i.ti-gift {
   filter:blur(0.5pt);
 }
 
