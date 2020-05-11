@@ -1,5 +1,5 @@
 /********************************************/
-/**** header begin ****/
+/**** header****/
 /********************************************/
 
 header {
@@ -119,4 +119,69 @@ ul {
   font-size: 15px;
   width: 100px;
   margin-top: 20px;
+}
+
+/********************************************/
+/**** footer ****/
+/********************************************/
+
+footer {
+  background: rgb(57, 71, 78);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  box-shadow: 0 15pt 15pt 0 rgba(0, 0, 0, 0.1);
+  padding-left: -10px;
+}
+
+
+.footer-container div {
+  font-family: 'Roboto Medium', Arial;
+  width: 170px;
+}
+
+.footer-logo-image {
+  vertical-align: baseline;
+  height: 60%;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.copyright-text {
+  color: #d0d8dc;
+  font-size: 10px;
+}
+
+
+.footer-menu-title {
+  text-transform: uppercase;
+  color: #8bc34a;
+  font-size: 13px;
+}
+
+.footer-menu-list {
+  margin-top: 20px;
+}
+
+.footer-link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.footer-link a {
+  color: #d0d8dc;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.footer-SNS-icon {
+  margin-top: 55px;
+  color: #8bc34a;
+}
+
+.footer-SNS-icon i {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 90%;
 }
