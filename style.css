@@ -122,6 +122,105 @@ ul {
 }
 
 /********************************************/
+/**** details section ****/
+/********************************************/
+
+.detail-section {
+  height: 500px;
+}
+
+.detail-section div {
+  width: 500px;
+}
+
+.section-description {
+  height: 315.35px
+}
+
+.des-img {
+  height: 315.35px;
+  width: 471.75px;
+}
+
+.section-title {
+  font-family: 'Roboto Light', Arial;
+  color: rgb(68, 68, 68);
+  font-size: 41px;
+  margin-top: -4px;
+}
+
+.title-icon {
+  font-size: 28px;
+}
+
+.section-description p { 
+  color: rgb(40, 50, 56);
+  font-family: 'Roboto Regular', Arial;
+  text-align: justify;
+
+}
+
+.section-intro-text {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.description-text {
+  font-size: 11px;
+  margin-top: 25px;
+  width: 485px;
+  line-height: 22px;
+}
+
+.section-button {
+  margin-top: 10px;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-text p{
+  color: rgb(40, 50, 56);
+  font-family: 'Roboto Regular', Arial;
+  text-align: justify;
+  font-size: 11px;
+  line-height: 21px;
+  width: 450px;
+}
+
+div.content-icon {
+  color: #8bc34a;
+  width: 30px;
+  overflow: auto;
+  margin-top: 15px;
+}
+
+.report-section-img,
+.project-section-img {
+  padding-left: 30px;
+}
+
+.members-section-title,
+.customesr-section-title {
+  margin-top: -20px;
+}
+
+.members-section-img {
+height: 85%;
+width: 85%;
+margin-left: 20px;
+}
+
+.til-section {
+  box-shadow: 0 10pt 10pt 0 rgba(0, 0, 0, 0.1);
+}
+
+.customers-section {
+  box-shadow: 0pt 0pt 10pt 10pt rgba(0, 0, 0, 0.1);
+}
+
+/********************************************/
 /**** footer ****/
 /********************************************/
 
