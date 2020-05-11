@@ -1,0 +1,120 @@
+/********************************************/
+/**** header ****/
+/********************************************/
+
+header {
+    background: url("./assets/images/banner.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-navbar li {
+    float: right;
+}
+
+.top-navbar ul {
+    padding-right: 260px;
+    padding-top: 30px;
+}
+
+.top-navbar ul li a {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 20px;
+    font-family: 'Roboto Regular', arial;
+    font-size: 11px;
+}
+
+#about {
+    color: black;
+    margin-right:15px;
+}
+
+#sign-in {
+    color: #8bc34a;
+    border: 2pt solid #8bc34a;
+    border-radius: 100pt;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+
+#sign-in:hover, 
+#sign-in:active {
+    background-color: #8bc34a;
+    color: white;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content img {
+    margin-top: 140px;
+    height: 16%;
+    width: 16%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.header-icon-container > div {
+    width: 260px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 47px;
+    margin-top: 10px;
+  }
+
+.icon-container {
+	width: 500px; 
+	padding: .7em 0;
+	position: relative;
+	text-align: center;
+}
+.icon-container [class^="ti-"], 
+.icon-container [class*=" ti-"] {
+	color: #000;
+}
+.icon-name {
+    text-align: center;
+	color: black;
+	font-size: 37px;
+    font-family: 'Roboto Light', Arial;
+}
+
+.icon-container span.ti-gift {
+    filter:blur(0.5pt);
+}
+
+.intro-sentence {
+      font-style: italic;
+      font-size: 10pt;
+  }
+
+.start-button {
+    background: linear-gradient(90deg,#429321, #b4ec51);
+    box-shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
+    padding: 12px 35px;
+    border-radius: 100pt;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Regular', Arial;
+    font-size: 15px;
+    width: 100px;
+    margin-top: 20px;
+}
