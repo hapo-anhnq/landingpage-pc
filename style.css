@@ -327,7 +327,7 @@ ul {
   display: flex;
 }
 
-.content-text p{
+.content-text p {
   color: rgb(40, 50, 56);
   font-family: 'Roboto Regular', Arial;
   text-align: justify;
@@ -354,9 +354,9 @@ div.content-icon {
 }
 
 .members-section-img {
-height: 85%;
-width: 85%;
-margin-left: 20px;
+  height: 85%;
+  width: 85%;
+  margin-left: 20px;
 }
 
 .til-section {
