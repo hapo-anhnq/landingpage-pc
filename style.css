@@ -221,6 +221,153 @@ div.content-icon {
 }
 
 /********************************************/
+/**** function row ****/
+/********************************************/
+.function-row {
+  background: linear-gradient(90deg,#429321, #b4ec51);
+  height: 260px;
+}
+
+.function-object {
+  height: 160px;
+  width: 230px;
+  text-align: center;
+}
+
+.main-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color:white;
+  border: 1px solid white;
+  border-width: 2px;
+  font-size: 33px;
+  padding: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color:white;
+  border: 1px solid white;
+  border-width: 2px;
+  padding: 4px;
+  z-index: 1;
+  margin-top: -22px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 179, 66);
+  font-family: 'Roboto-Regular', Arial;
+  font-size: 23px;
+}
+
+.function-name {
+  text-align: center;
+}
+
+.function-name span {
+  color: white;
+  font-family: 'Roboto-Regular', Arial;
+  width: 200px;
+  margin-top: 10px;               
+  text-transform: uppercase;
+  white-space: pre-line
+}
+
+/********************************************/
+/**** customer list ****/
+/********************************************/
+.customer-list {
+  background: url("./assets/images/rectangle3.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.customer-list-title {
+  font-family: 'Roboto Light', Arial;
+  font-size: 37px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.avatar-row {
+  margin-top: 35px;
+}
+
+.avatar-row div {
+  text-align: center;
+  width: 130px;
+}
+
+.customer-avatar {
+  height: 70px;
+  width: 70px;
+}
+
+.customer-info {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto-Regular', Arial;
+}
+
+.customer-name {
+  font-size:11px;
+}
+
+.customer-role {
+  font-size: 8px;
+  margin-top: -10px;
+}
+
+.customer-row-pagination {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.customer-row-pagination span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  margin: 0px 7px; 
+}
+
+.page-circle-light {
+  background-color: rgb(216, 216, 216);
+}
+
+.ti-quote-left,
+.ti-quote-right {
+  color: white;
+  opacity: 40%;
+  font-size: 400%;
+}
+
+.ti-quote-right {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.ti-quote-left {
+  margin-top: -100px;
+  margin-right: 20px; 
+}
+
+.customer-row-quote p {
+  text-align: justify;
+  width: 620px;
+  color: white;
+  font-family: 'Roboto Light', Arial;
+  font-size: 15px;
+}
+
+/********************************************/
 /**** footer ****/
 /********************************************/
 
