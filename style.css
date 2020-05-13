@@ -74,7 +74,7 @@ ul {
   width: 260px;
   text-align: center;
   line-height: 45px;
-  font-size: 47px;
+  font-size: 43px;
   margin-top: 10px;
 }
 
@@ -93,7 +93,7 @@ ul {
 .icon-name {
   text-align: center;
   color: black;
-  font-size: 37px;
+  font-size: 32px;
   font-family: 'Roboto Light', Arial;
 }
 
@@ -103,7 +103,8 @@ ul {
 
 .intro-sentence {
   font-style: italic;
-  font-size: 10pt;
+  font-size: 14px;
+  font-family: 'Roboto Regular', arial;;
 }
 
 .start-button {
@@ -142,15 +143,15 @@ ul {
   color:white;
   border: 1px solid white;
   border-width: 2px;
-  font-size: 33px;
+  font-size: 30px;
   padding: 33px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .index-circle {
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   border-radius: 50%;
   color:white;
   border: 1px solid white;
@@ -162,20 +163,21 @@ ul {
   margin-right: auto;
   background-color: rgb(124, 179, 66);
   font-family: 'Roboto-Regular', Arial;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .function-name {
   text-align: center;
+  margin-top: -10px;
 }
 
 .function-name span {
   color: white;
   font-family: 'Roboto-Regular', Arial;
   width: 200px;
-  margin-top: 10px;               
   text-transform: uppercase;
-  white-space: pre-line
+  white-space: pre-line;
+  font-size: 13px;
 }
 
 /********************************************/
@@ -190,7 +192,7 @@ ul {
 
 .customer-list-title {
   font-family: 'Roboto Light', Arial;
-  font-size: 37px;
+  font-size: 40px;
   color: white;
   text-align: center;
   padding-top: 40px;
@@ -206,8 +208,13 @@ ul {
 }
 
 .customer-avatar {
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
+}
+
+.customer-4 {
+  height: 85px;
+  width: 85px;
 }
 
 .customer-info {
@@ -221,7 +228,7 @@ ul {
 }
 
 .customer-role {
-  font-size: 8px;
+  font-size: 9px;
   margin-top: -10px;
 }
 
@@ -260,11 +267,15 @@ ul {
   margin-right: 20px; 
 }
 
+.customer-row-quote {
+  margin-top: -10px;
+}
+
 .customer-row-quote p {
   text-align: justify;
   width: 620px;
   color: white;
-  font-family: 'Roboto Light', Arial;
+  font-family: 'Roboto Light', arial;
   font-size: 15px;
 }
 
@@ -308,12 +319,12 @@ ul {
 }
 
 .section-intro-text {
-  font-size: 12px;
+  font-size: 13px;
   font-style: italic;
 }
 
 .description-text {
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 25px;
   width: 485px;
   line-height: 22px;
@@ -331,8 +342,8 @@ ul {
   color: rgb(40, 50, 56);
   font-family: 'Roboto Regular', Arial;
   text-align: justify;
-  font-size: 11px;
-  line-height: 21px;
+  font-size: 12px;
+  line-height: 19px;
   width: 450px;
 }
 
@@ -349,7 +360,7 @@ div.content-icon {
 }
 
 .members-section-title,
-.customesr-section-title {
+.customers-section-title {
   margin-top: -20px;
 }
 
