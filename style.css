@@ -6,11 +6,13 @@ header {
   background: url("./assets/images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 700px;
 }
 
 ul {
   list-style-type: none;
+
 }
 
 .top-navbar li {
@@ -20,6 +22,7 @@ ul {
 .top-navbar ul {
   padding-right: 250px;
   padding-top: 30px;
+  margin-top: 0px;
 }
 
 .about-button,
