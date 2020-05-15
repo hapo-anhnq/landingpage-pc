@@ -20,9 +20,10 @@ ul {
 }
 
 .top-navbar ul {
-  padding-right: 250px;
+  /* padding-right: 250px; */
   padding-top: 30px;
   margin-top: 0px;
+  width: 930px;
 }
 
 .about-button,
